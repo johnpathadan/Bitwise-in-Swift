@@ -46,3 +46,11 @@ xextension LinkedList {
   }
 
 }
+
+//convert to base-10
+    if let base = node as? Int {
+      total += base * pos 
+      pos = pos * 2
+    }
+    
+    
